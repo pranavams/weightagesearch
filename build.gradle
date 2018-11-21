@@ -5,6 +5,6 @@ buildscript {
     }
 
     dependencies {
-        testCompile group: 'junit', name: 'junit', version: 'latest.release'
+        testImplementation group: 'junit', name: 'junit', version: 'latest.release'
     }
 }
