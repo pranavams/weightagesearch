@@ -1,10 +1,9 @@
-apply plugin: 'java'
-buildscript {
-    repositories {
-        mavenCentral()
-    }
+apply plugin: 'java-library'
 
-    dependencies {
-        testImplementation group: 'junit', name: 'junit', version: 'latest.release'
-    }
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.+'
 }
